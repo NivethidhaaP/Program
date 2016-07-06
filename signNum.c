@@ -6,16 +6,10 @@ int n;
 printf("Enter Number:");
 scanf("%d",&n);
 if(n>0)
-{
-printf("Positive");
-}
+  printf("Positive");
 else if(n<0)
-{
-printf("Negative");
-}
+  printf("Negative");
 else
-{
-printf("Zero");
-}
+  printf("Zero");
 getch();
 }
