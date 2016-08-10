@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int n,i=0,a[25],j,r,k,temp,t;
+int n,i=0,a[25],j,r,k,temp,t,k1;
 scanf("%d",&n);
+scanf("%d",&k1);
 while(n>0)
 {
 r=n%10;
@@ -26,7 +27,7 @@ if(a[j]<a[k])
   }
 }
 }
-for(k=0;k<i-3;k++)
+for(k=0;k<i-k1;k++)
   printf("%d",a[k]);
 
 }
